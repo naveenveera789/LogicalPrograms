@@ -44,6 +44,8 @@ namespace LogicalPrograms
                         temp.Temp();
                         break;
                     case 10:
+                        MonthlyPayment month = new MonthlyPayment();
+                        month.Payment();
                         break;
                     case 11:
                         flag = false;
