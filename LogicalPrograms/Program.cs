@@ -18,6 +18,8 @@ namespace LogicalPrograms
                         series.Fibonacci();
                         break;
                     case 2:
+                        PerfectNumber number = new PerfectNumber();
+                        number.Perfect();
                         break;
                     case 3:
                         break;
