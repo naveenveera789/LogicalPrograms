@@ -40,6 +40,8 @@ namespace LogicalPrograms
                         day.Day();
                         break;
                     case 9:
+                        TemperatureConversion temp = new TemperatureConversion();
+                        temp.Temp();
                         break;
                     case 10:
                         break;
