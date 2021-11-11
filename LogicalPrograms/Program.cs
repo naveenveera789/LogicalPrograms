@@ -26,6 +26,8 @@ namespace LogicalPrograms
                         num.Prime();
                         break;
                     case 4:
+                        ReverseANumber rev = new ReverseANumber();
+                        rev.Reverse();
                         break;
                     case 5:
                         flag = false;
