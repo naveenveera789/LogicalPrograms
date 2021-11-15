@@ -32,6 +32,8 @@ namespace LogicalPrograms
                     case 5:
                         break;
                     case 6:
+                        SimulateStopwatch stopwatch = new SimulateStopwatch();
+                        stopwatch.Timer();
                         break;
                     case 7:
                         Console.WriteLine("Enter the amount : ");
