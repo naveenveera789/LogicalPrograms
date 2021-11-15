@@ -34,6 +34,10 @@ namespace LogicalPrograms
                     case 6:
                         break;
                     case 7:
+                        Console.WriteLine("Enter the amount : ");
+                        int money = Convert.ToInt32(Console.ReadLine());
+                        VendingMachine change = new VendingMachine();
+                        change.Machine(money);
                         break;
                     case 8:
                         DayOfWeek day = new DayOfWeek();
